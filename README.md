@@ -24,9 +24,16 @@ dev_dependencies:
 
 ### 直接执行脚本即可生成依赖关系图
 
-如： flutter_dependency_draw 项目内的 script/dependency_draw.dart
+如 demo ： flutter_dependency_draw 项目内的 `script/dependency_draw.dart`
 
 最终会生成 依赖关系.png 文件, 位于当前项目的 dotGenerateDir 目录下。
+
++ flutter_dependency_draw 作为主项目，
++ cart、common、common_ui、login、menu、net、 order、splash、trade、upgrade 分别是组件模块
++ 组件模块内部依赖了些许第三方库
+生成的依赖关系图如下：
+
+[](https://github.com/liyufengrex/flutter_dependency_draw/blob/main/flutter_dependency_draw/dotGenerateDir/flutter_dependency_draw.png)
 
 
 ### DOT 语言相关参考资料：
