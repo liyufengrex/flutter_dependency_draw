@@ -18,8 +18,8 @@ arch -arm64 brew install graphviz
 
 ```dart
 dev_dependencies:
-  yaml: ^3.1.1
-  gviz: ^0.4.0
+yaml: ^3.1.1
+gviz: ^0.4.0
 ```
 
 ### 直接执行脚本即可生成依赖关系图
@@ -31,9 +31,11 @@ dev_dependencies:
 + flutter_dependency_draw 作为主项目，
 + cart、common、common_ui、login、menu、net、 order、splash、trade、upgrade 分别是组件模块
 + 组件模块内部依赖了些许第三方库
+
 生成的依赖关系图如下：
 
-[](https://github.com/liyufengrex/flutter_dependency_draw/blob/main/flutter_dependency_draw/dotGenerateDir/flutter_dependency_draw.png)
+![flutter_dependency_draw.png](https://upload-images.jianshu.io/upload_images/25776880-2e62fa6ba1480e24.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 
 ### DOT 语言相关参考资料：
