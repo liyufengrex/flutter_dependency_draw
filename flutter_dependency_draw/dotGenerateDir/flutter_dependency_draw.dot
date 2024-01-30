@@ -1,0 +1,137 @@
+digraph flutter_dependency_draw {
+  graph [pad="0.5", nodesep="1", ranksep="2"];
+  edge [fontcolor=gray];
+  "flutter_dependency_draw
+1.0.0+1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "flutter_dependency_draw
+1.0.0+1" -> "common
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "flutter_dependency_draw
+1.0.0+1" -> "menu
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "flutter_dependency_draw
+1.0.0+1" -> "order
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "flutter_dependency_draw
+1.0.0+1" -> "trade
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "flutter_dependency_draw
+1.0.0+1" -> "cart
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "flutter_dependency_draw
+1.0.0+1" -> "splash
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "flutter_dependency_draw
+1.0.0+1" -> "upgrade
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "common
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "menu
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "menu
+0.0.1" -> "common_ui
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "menu
+0.0.1" -> "net
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "common_ui
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "common_ui
+0.0.1" -> "flutter_screenutil
+5.7.0" [penwidth="2", style=dashed, arrowed=vee];
+  "flutter_screenutil
+5.7.0" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "net
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "net
+0.0.1" -> "dio
+4.0.6" [penwidth="2", style=dashed, arrowed=vee];
+  "dio
+4.0.6" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "dio
+4.0.6" -> "http_parser
+4.0.2" [penwidth="2", style=dashed, arrowed=vee];
+  "http_parser
+4.0.2" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "http_parser
+4.0.2" -> "source_span
+1.9.0" [penwidth="2", style=dashed, arrowed=vee];
+  "http_parser
+4.0.2" -> "string_scanner
+1.1.1" [penwidth="2", style=dashed, arrowed=vee];
+  "http_parser
+4.0.2" -> "typed_data
+1.3.2" [penwidth="2", style=dashed, arrowed=vee];
+  "source_span
+1.9.0" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "source_span
+1.9.0" -> "collection
+1.16.0" [penwidth="2", style=dashed, arrowed=vee];
+  "source_span
+1.9.0" -> "path
+1.8.2" [penwidth="2", style=dashed, arrowed=vee];
+  "source_span
+1.9.0" -> "term_glyph
+1.2.1" [penwidth="2", style=dashed, arrowed=vee];
+  "collection
+1.16.0" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "path
+1.8.2" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "term_glyph
+1.2.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "string_scanner
+1.1.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "string_scanner
+1.1.1" -> "source_span
+1.9.0" [penwidth="2", style=dashed, arrowed=vee];
+  "typed_data
+1.3.2" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "typed_data
+1.3.2" -> "collection
+1.16.0" [penwidth="2", style=dashed, arrowed=vee];
+  "order
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "order
+0.0.1" -> "common_ui
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "order
+0.0.1" -> "net
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "trade
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "trade
+0.0.1" -> "common_ui
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "trade
+0.0.1" -> "net
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "cart
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "cart
+0.0.1" -> "common_ui
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "splash
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "splash
+0.0.1" -> "login
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "splash
+0.0.1" -> "common
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "login
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "login
+0.0.1" -> "common_ui
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "login
+0.0.1" -> "net
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "upgrade
+0.0.1" [color=black, shape=rectangle, margin="1,0.8", penwidth="7", style=filled, fillcolor=gray, fontsize="60"];
+  "upgrade
+0.0.1" -> "common
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+  "upgrade
+0.0.1" -> "net
+0.0.1" [penwidth="2", style=dashed, arrowed=vee];
+}
